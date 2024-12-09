@@ -6,5 +6,11 @@
     "devpod": {
       "prebuildRepository": "ghcr.io/loft-sh/devpod-example-go"
     }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {
+        "version": "latest",
+        "moby": true
+    }
   }
 }
