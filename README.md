@@ -8,3 +8,5 @@ Either click on the 'Open in DevPod' link above or start via `devpod up github.c
 It will also serve static files on port 4000 and forward it to your local machine.
 
 After creating your workspace, run `go run main.go` to start the server.
+
+Then run `go get tailscale.com/tsnet` and `go run tailscale.go`

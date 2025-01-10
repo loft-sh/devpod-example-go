@@ -1,0 +1,47 @@
+{"logtail":{"client_time":"2025-01-10T15:16:56.498285586Z"},"v":1,"controltime":"2025-01-10T15:16:56.491187594Z"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.498430326Z"},"text":"health(warnable=not-in-map-poll): ok"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.498773388Z"},"text":"control: netmap: got new dial plan from control"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.49879038Z"},"text":"using tailnet default auto-update setting: true"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.498843079Z"},"text":"EditPrefs: MaskedPrefs{AutoUpdate={Apply=true}}"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.498887548Z"},"v":1,"text":"netmap packet filter: (not ready yet)"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.510110668Z"},"text":"offline auto-update: starting update checks"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.510144266Z"},"v":1,"text":"control: HostInfo: {\"IPNVersion\":\"1.78.3-ERR-BuildInfo\",\"BackendLogID\":\"2a4271e61649d8b24205eac5f68c02ce128950e6986335479bebde2a1fda0508\",\"OS\":\"linux\",\"OSVersion\":\"5.15.0-1074-azure\",\"Container\":false,\"Env\":\"k8s\",\"Distro\":\"debian\",\"DistroVersion\":\"11.11\",\"DistroCodeName\":\"bullseye\",\"Desktop\":false,\"Package\":\"tsnet\",\"Hostname\":\"myapp\",\"AllowsUpdate\":true,\"Machine\":\"x86_64\",\"GoArch\":\"amd64\",\"GoArchVar\":\"v1\",\"GoVersion\":\"go1.23.4\",\"Services\":[{\"Proto\":\"peerapi-dns-proxy\",\"Port\":1}],\"Cloud\":\"azure\",\"Userspace\":true,\"UserspaceRouter\":true,\"AppConnector\":false}"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.510153331Z"},"v":1,"text":"authReconfig: netmap not yet valid. Skipping."}
+{"logtail":{"client_time":"2025-01-10T15:16:56.510201429Z"},"v":1,"text":"control: new network map (periodic):\nnetmap: self: [lcAm8] auth=machine-authorized u=bkneis@github [100.104.191.109/32 fd7a:115c:a1e0::3201:bf70/128]\n"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.510213102Z"},"v":1,"text":"control: mapRoutine: netmap received: state:synchronized"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.510218639Z"},"v":1,"text":"control: sendStatus: mapRoutine-got-netmap: state:synchronized"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.530514051Z"},"v":2,"text":"netstack: registered IP 100.104.191.109/32"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.530531617Z"},"v":2,"text":"netstack: registered IP fd7a:115c:a1e0::3201:bf70/128"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.530536048Z"},"text":"active login: bkneis@github"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.530843499Z"},"v":1,"text":"netmap packet filter: 1 filters"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.530882191Z"},"v":1,"text":"magicsock: got updated network map; 1 peers"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.531494099Z"},"text":"Switching ipn state NoState -> Starting (WantRunning=true, nm=true)"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.531925675Z"},"text":"magicsock: SetPrivateKey called (init)"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.531973088Z"},"v":1,"text":"magicsock: peermtu: peer MTU status is false"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532067331Z"},"text":"wgengine: Reconfig: configuring userspace WireGuard config (with 0/1 peers)"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532124036Z"},"v":2,"text":"wg: UAPI: Updating private key"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532237749Z"},"text":"wgengine: Reconfig: configuring router"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532246916Z"},"v":1,"text":"warning: fakeRouter.Set: not implemented."}
+{"logtail":{"client_time":"2025-01-10T15:16:56.53225493Z"},"text":"wgengine: Reconfig: configuring DNS"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532305Z"},"text":"dns: Set: {DefaultResolvers:[] Routes:{tailce6004.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tailce6004.ts.net.] Hosts:2}"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532341671Z"},"v":1,"text":"authReconfig: ra=true dns=true 0x02: getting OS base config is not supported"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532435453Z"},"text":"health(warnable=dns-read-os-config-failed): error: Tailscale failed to fetch the DNS configuration of your device: getting OS base config is not supported"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532471984Z"},"text":"peerapi: serving on http://100.104.191.109:60440"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532481274Z"},"text":"peerapi: serving on http://[fd7a:115c:a1e0::3201:bf70]:60440"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532532881Z"},"text":"health(warnable=dns): error: getting OS base config is not supported"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532598821Z"},"v":1,"text":"control: HostInfo: {\"IPNVersion\":\"1.78.3-ERR-BuildInfo\",\"BackendLogID\":\"2a4271e61649d8b24205eac5f68c02ce128950e6986335479bebde2a1fda0508\",\"OS\":\"linux\",\"OSVersion\":\"5.15.0-1074-azure\",\"Container\":false,\"Env\":\"k8s\",\"Distro\":\"debian\",\"DistroVersion\":\"11.11\",\"DistroCodeName\":\"bullseye\",\"Desktop\":false,\"Package\":\"tsnet\",\"Hostname\":\"myapp\",\"AllowsUpdate\":true,\"Machine\":\"x86_64\",\"GoArch\":\"amd64\",\"GoArchVar\":\"v1\",\"GoVersion\":\"go1.23.4\",\"Services\":[{\"Proto\":\"peerapi4\",\"Port\":60440},{\"Proto\":\"peerapi6\",\"Port\":60440},{\"Proto\":\"peerapi-dns-proxy\",\"Port\":1}],\"Cloud\":\"azure\",\"Userspace\":true,\"UserspaceRouter\":true,\"AppConnector\":false}"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532616971Z"},"v":1,"text":"magicsock: peermtu: peer MTU status is false"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532632766Z"},"v":1,"text":"wgengine: Reconfig done"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.532641891Z"},"v":1,"text":"authReconfig: ra=true dns=true 0x02: <nil>"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.573601633Z"},"v":1,"text":"netcheck: report: udp=true v6=false v6os=true mapvarydest=false portmap= v4a=98.64.250.214:2564 derp=14 derpdist=4v4:31ms,8v4:9ms,14v4:2ms,18v4:14ms,26v4:36ms"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.573647422Z"},"text":"magicsock: home DERP changing from derp-0 [0ms] to derp-14 [1ms]"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.573666831Z"},"text":"magicsock: home is now derp-14 (ams)"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.57369858Z"},"text":"magicsock: adding connection to derp-14 for home-keep-alive"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.573756428Z"},"text":"magicsock: 1 active derp conns: derp-14=cr0s,wr0s"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.573782929Z"},"text":"offline auto-update: stopping update checks"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.573796659Z"},"text":"Switching ipn state Starting -> Running (WantRunning=true, nm=true)"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.573884507Z"},"text":"health(warnable=no-derp-home): ok"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.573906552Z"},"text":"derphttp.Client.Connect: connecting to derp-14 (ams)"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.574062711Z"},"text":"magicsock: endpoints changed: 98.64.250.214:2564 (stun), 10.244.1.207:60004 (local)"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.574089975Z"},"v":2,"text":"control: client.newEndpoints([{98.64.250.214:2564 stun} {10.244.1.207:60004 local}])"}
+{"logtail":{"client_time":"2025-01-10T15:16:56.574256991Z"},"text":"control: NetInfo: NetInfo{varies=false hairpin= ipv6=false ipv6os=true udp=true icmpv4=false derp=#14 portmap= link=\"\" firewallmode=\"\"}"}
