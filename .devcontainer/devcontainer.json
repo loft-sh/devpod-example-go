@@ -6,5 +6,10 @@
     "devpod": {
       "prebuildRepository": "ghcr.io/loft-sh/devpod-example-go"
     }
-  }
+  },
+  "initializeCommand": "uname -a",
+  "onCreateCommand": "echo OnCreateCommand",
+  "updateContentCommand": "echo UpdatingContentCommand",
+  "postCreateCommand": "echo PostCreateCommand",
+  "postStartCommand": "echo PostStartCommand"
 }
