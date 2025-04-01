@@ -10,6 +10,6 @@
   "initializeCommand": "uname -a",
   "onCreateCommand": "echo OnCreateCommand",
   "updateContentCommand": "echo UpdatingContentCommand",
-  "postCreateCommand": "echo PostCreateCommand",
+  "postCreateCommand": "git fetch",
   "postStartCommand": "echo PostStartCommand"
 }
