@@ -2,11 +2,5 @@
   "name": "Go Example",
   "build": {
     "dockerfile": "Dockerfile"
-  },
-  "forwardPorts": [4000],
-  "customizations": {
-    "devpod": {
-      "prebuildRepository": "ghcr.io/loft-sh/devpod-example-go"
-    }
   }
 }
